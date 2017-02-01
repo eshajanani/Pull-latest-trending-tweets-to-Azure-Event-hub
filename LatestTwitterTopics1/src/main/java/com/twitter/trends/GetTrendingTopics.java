@@ -54,7 +54,7 @@ public class GetTrendingTopics {
        String fileName = "timezone.txt";
        String line = "";
        String cvsSplitBy = ",";
-       
+       // read into file
        BufferedReader br = new BufferedReader(new FileReader(fileName));
 
        try {
